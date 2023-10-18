@@ -1,0 +1,24 @@
+D:\AAC\AAC\bin\Debug\AAC.exe.config
+D:\AAC\AAC\bin\Debug\AAC.exe
+D:\AAC\AAC\bin\Debug\AAC.pdb
+D:\AAC\AAC\obj\Debug\AAC.csproj.AssemblyReference.cache
+D:\AAC\AAC\obj\Debug\AAC.csproj.SuggestedBindingRedirects.cache
+D:\AAC\AAC\obj\Debug\AAC.csproj.CoreCompileInputs.cache
+D:\AAC\AAC\obj\Debug\AAC.exe
+D:\AAC\AAC\obj\Debug\AAC.pdb
+D:\AAC\AAC\bin\Debug\AAC.exe.manifest
+D:\AAC\AAC\bin\Debug\AAC.application
+D:\AAC\AAC\obj\Debug\AAC.exe.manifest
+D:\AAC\AAC\obj\Debug\AAC.application
+D:\Adapter Auto Configure\AAC\bin\Debug\AAC.exe.config
+D:\Adapter Auto Configure\AAC\bin\Debug\AAC.exe.manifest
+D:\Adapter Auto Configure\AAC\bin\Debug\AAC.application
+D:\Adapter Auto Configure\AAC\bin\Debug\AAC.exe
+D:\Adapter Auto Configure\AAC\bin\Debug\AAC.pdb
+D:\Adapter Auto Configure\AAC\obj\Debug\AAC.csproj.AssemblyReference.cache
+D:\Adapter Auto Configure\AAC\obj\Debug\AAC.csproj.SuggestedBindingRedirects.cache
+D:\Adapter Auto Configure\AAC\obj\Debug\AAC.csproj.CoreCompileInputs.cache
+D:\Adapter Auto Configure\AAC\obj\Debug\AAC.exe.manifest
+D:\Adapter Auto Configure\AAC\obj\Debug\AAC.application
+D:\Adapter Auto Configure\AAC\obj\Debug\AAC.exe
+D:\Adapter Auto Configure\AAC\obj\Debug\AAC.pdb
