@@ -69,6 +69,21 @@ namespace CodeWars
                                 3
                             },
                         };
+
+                        var wifiChosenStr = AnsiConsole.Prompt(
+                            new SelectionPrompt<string>()
+                                .PageSize(5)
+                                .HighlightStyle(Style.Parse(Color.Purple.ToString()))
+                                .AddChoices(
+                                    new[]
+                                    {
+                                        "Wifi [bold blue]IP & DNS[/] goes on [bold green]DHCP[/]",
+                                        "Wifi [bold blue]IP & DNS[/] goes on [bold green]Home network config[/]",
+                                        "Wifi [bold blue]IP & DNS[/] goes on [bold green]Payaneh network config[/]",
+                                        "Main menu"
+                                    }
+                                )
+                        );
                         break;
                     case 1:
 
