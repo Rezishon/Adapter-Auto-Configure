@@ -22,6 +22,13 @@ namespace CodeWars
                 { "Exit", 777 },
             };
             while (flag)
+                AnsiConsole.Write(new FigletText("AAC").Centered().Color(Color.Purple));
+                AnsiConsole.Render(
+                    new Text(
+                        "Adapter Auto Configure\n",
+                        Style.Parse("italic purple bold")
+                    ).Centered()
+                );
                 {
 
                 }
