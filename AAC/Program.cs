@@ -108,6 +108,11 @@ namespace CodeWars
                                     }
                                 )
                         );
+
+                        number =
+                            wifiDNSChosenStr == "Main menu"
+                                ? 777
+                                : wifiDNSPartNumbers[wifiDNSChosenStr];
                         break;
                     case 2:
                         break;
