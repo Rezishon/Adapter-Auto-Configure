@@ -89,6 +89,11 @@ namespace CodeWars
                             wifiChosenStr == "Main menu" ? 777 : wifiPartNumbers[wifiChosenStr];
                         break;
                     case 1:
+                        Dictionary<string, int> wifiDNSPartNumbers = new Dictionary<string, int>()
+                        {
+                            { "Wifi [bold blue]DNS[/] goes on [bold green]Shecan[/]", 6 },
+                            { "Wifi [bold blue]DNS[/] goes on [bold green]Normal config[/]", 8 },
+                        };
 
                         break;
                     case 2:
