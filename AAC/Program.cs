@@ -84,6 +84,9 @@ namespace CodeWars
                                     }
                                 )
                         );
+
+                        number =
+                            wifiChosenStr == "Main menu" ? 777 : wifiPartNumbers[wifiChosenStr];
                         break;
                     case 1:
 
