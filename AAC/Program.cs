@@ -57,6 +57,18 @@ namespace CodeWars
                 switch (partNumbers[chosenStr])
                 {
                     case 0:
+                        Dictionary<string, int> wifiPartNumbers = new Dictionary<string, int>()
+                        {
+                            { "Wifi [bold blue]IP & DNS[/] goes on [bold green]DHCP[/]", 1 },
+                            {
+                                "Wifi [bold blue]IP & DNS[/] goes on [bold green]Home network config[/]",
+                                2
+                            },
+                            {
+                                "Wifi [bold blue]IP & DNS[/] goes on [bold green]Payaneh network config[/]",
+                                3
+                            },
+                        };
                         break;
                     case 1:
 
