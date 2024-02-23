@@ -9,7 +9,15 @@ namespace CodeWars
         {
             bool flag = true;
             int number = 1;
+            Dictionary<string, int> partNumbers = new Dictionary<string, int>()
             {
+                { "Wifi => IP & DNS", 0 },
+                { "Wifi => DNS", 1 },
+                { "nEthernet => IP & DNS", 2 },
+                { "nEthernet => DNS", 3 },
+                { "Additional Tools", 4 },
+                { "Exit", 777 },
+            };
             while (flag)
                 {
 
