@@ -8,43 +8,8 @@ namespace CodeWars
         static void Main(string[] args)
         {
             int number = 1;
-            Console.WriteLine("Welcome to Adapter Auto Configure" +
-                "\n\n ! ! REMEMBER TO RUN AS ADMINISTRATOR ! ! " +
-                "\n\nPayaneh Monitor \"1280 * 1024\"" +
-                "\nLaptop Monitor \"1920 * 1080\"" +
-                "\nHome Monitor \"1360 * 768 60.015Hz\"" +
-                "\n\nWe have 12 operation:");
-            while (number != 0)
             {
-                Console.WriteLine(
-                    "\nWifi :"+
-                    "\n\t1 => make \"Wifi\" goes on \"DHCP\" mood" +
-                    "\n\t2 => make \"Wifi\" goes on \"Home_Network_Config\" mood" +
-                    "\n\t3 => make \"Wifi\" goes on \"Payaneh_Network_Config\" mood" +
-                    "\n\t\t6 => make \"Wifi-DNS\" goes on \"Shecan\" mood" +
-                    "\n\t\t8 => make \"Wifi-DNS\" goes on \"Normal\" mood" +
-                    "\n========================================================================================="+
-                    "\nEthernet :" +
-                    "\n\t5 => make \"Ethernet\" goes on \"DHCP\" mood" +
-                    "\n\t4 => make \"Ethernet\" goes on \"Payaneh_Network_Config\" mood" +
-                    "\n\t\t7 => make \"Ethernet-DNS\" goes on \"Shecan\" mood" +
-                    "\n\t\t9 => make \"Ethernet-DNS\" goes on \"Normal\" mood" +
-                    "\n=========================================================================================" +
-                    "\nAdditional Tools :" +
-                    "\n\t10 => Reset network adapter" +
-                    "\n\t11 => Check \"normal\" connetion" +
-                    "\n\t12 => Check \"filtered\" connection" +
-                    "\n\t0 => Exit\n");
-                Console.Write("Enter your command number: ");
-                try
                 {
-                    number = Convert.ToInt32(Console.ReadLine());
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine(" ! ! Please enter valid number ! !");
-                    Console.Clear();
-                    continue;
 
                 }
 
@@ -120,19 +85,7 @@ namespace CodeWars
                         Console.ReadKey();
 
                         break;
-                    default:
-                        try
-                        {
-                            Console.WriteLine(" ! ! Please enter valid number ! !");
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine(" ! ! Please enter valid number ! !");
-                        }
-                        break;
                 }
-                //Console.WriteLine("Press any key to exit");
-                //Console.ReadKey();
                 Console.Clear();
             }
         }
@@ -161,4 +114,3 @@ namespace CodeWars
         }
     }
 }
-// make the user not allow to type things unless numbers : Done only for specific numbers
