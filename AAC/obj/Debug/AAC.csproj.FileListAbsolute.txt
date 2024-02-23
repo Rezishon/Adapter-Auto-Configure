@@ -22,3 +22,31 @@ D:\Adapter Auto Configure\AAC\obj\Debug\AAC.exe.manifest
 D:\Adapter Auto Configure\AAC\obj\Debug\AAC.application
 D:\Adapter Auto Configure\AAC\obj\Debug\AAC.exe
 D:\Adapter Auto Configure\AAC\obj\Debug\AAC.pdb
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\AAC.exe.config
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\AAC.exe.manifest
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\AAC.application
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\AAC.exe
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\AAC.pdb
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\Spectre.Console.Cli.dll
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\Spectre.Console.dll
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\System.Buffers.dll
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\System.Memory.dll
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\System.Numerics.Vectors.dll
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\Spectre.Console.xml
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\Spectre.Console.Cli.xml
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\System.Buffers.xml
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\System.Memory.xml
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\System.Numerics.Vectors.xml
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\de\Spectre.Console.Cli.resources.dll
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\fr\Spectre.Console.Cli.resources.dll
+S:\Projects\Adapter-Auto-Configure\AAC\bin\Debug\sv\Spectre.Console.Cli.resources.dll
+S:\Projects\Adapter-Auto-Configure\AAC\obj\Debug\AAC.csproj.AssemblyReference.cache
+S:\Projects\Adapter-Auto-Configure\AAC\obj\Debug\AAC.csproj.CoreCompileInputs.cache
+S:\Projects\Adapter-Auto-Configure\AAC\obj\Debug\AAC.exe.manifest
+S:\Projects\Adapter-Auto-Configure\AAC\obj\Debug\AAC.application
+S:\Projects\Adapter-Auto-Configure\AAC\obj\Debug\AAC.csproj.CopyComplete
+S:\Projects\Adapter-Auto-Configure\AAC\obj\Debug\AAC.exe
+S:\Projects\Adapter-Auto-Configure\AAC\obj\Debug\AAC.pdb
+S:\Projects\Adapter-Auto-Configure\AAC\obj\Debug\AAC.csproj.SuggestedBindingRedirects.cache
