@@ -7,8 +7,10 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
+            bool flag = true;
             int number = 1;
             {
+            while (flag)
                 {
 
                 }
