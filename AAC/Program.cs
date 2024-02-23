@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using Spectre.Console;
 
 namespace CodeWars
 {
     internal class Program
     {
+        [Obsolete]
         static void Main(string[] args)
         {
             bool flag = true;
