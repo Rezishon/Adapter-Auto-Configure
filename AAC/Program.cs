@@ -166,6 +166,11 @@ namespace CodeWars
                                     }
                                 )
                         );
+
+                        number =
+                            ethernetDNSChosenStr == "Main menu"
+                                ? 777
+                                : ethernetDNSPartNumbers[ethernetDNSChosenStr];
                         break;
                     case 4:
                     default:
