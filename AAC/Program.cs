@@ -29,6 +29,11 @@ namespace CodeWars
                         Style.Parse("italic purple bold")
                     ).Centered()
                 );
+
+                var rule = new Rule("[italic blue]What command you want to run?[/]");
+                rule.Justification = Justify.Left;
+                AnsiConsole.Write(rule);
+                AnsiConsole.MarkupLine("");
                 {
 
                 }
