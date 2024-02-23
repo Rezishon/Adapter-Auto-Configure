@@ -144,6 +144,14 @@ namespace CodeWars
                                 : ethernetPartNumbers[ethernetChosenStr];
                         break;
                     case 3:
+                        Dictionary<string, int> ethernetDNSPartNumbers = new Dictionary<
+                            string,
+                            int
+                        >()
+                        {
+                            { "Ethernet [bold blue]DNS[/] goes on [bold green]Shecan[/]", 7 },
+                            { "Ethernet [bold blue]DNS[/] goes on [bold green]Normal config[/]", 9 }
+                        };
                         break;
                     case 4:
                     default:
