@@ -137,6 +137,11 @@ namespace CodeWars
                                     }
                                 )
                         );
+
+                        number =
+                            ethernetChosenStr == "Main menu"
+                                ? 777
+                                : ethernetPartNumbers[ethernetChosenStr];
                         break;
                     case 3:
                         break;
