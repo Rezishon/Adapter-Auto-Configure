@@ -152,6 +152,20 @@ namespace CodeWars
                             { "Ethernet [bold blue]DNS[/] goes on [bold green]Shecan[/]", 7 },
                             { "Ethernet [bold blue]DNS[/] goes on [bold green]Normal config[/]", 9 }
                         };
+
+                        var ethernetDNSChosenStr = AnsiConsole.Prompt(
+                            new SelectionPrompt<string>()
+                                .PageSize(5)
+                                .HighlightStyle(Style.Parse(Color.Purple.ToString()))
+                                .AddChoices(
+                                    new[]
+                                    {
+                                        "Ethernet [bold blue]DNS[/] goes on [bold green]Shecan[/]",
+                                        "Ethernet [bold blue]DNS[/] goes on [bold green]Normal config[/]",
+                                        "Main menu"
+                                    }
+                                )
+                        );
                         break;
                     case 4:
                     default:
