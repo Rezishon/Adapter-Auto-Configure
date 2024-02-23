@@ -53,6 +53,8 @@ namespace CodeWars
                             }
                         )
                 );
+
+                switch (partNumbers[chosenStr])
                 {
 
                 }
