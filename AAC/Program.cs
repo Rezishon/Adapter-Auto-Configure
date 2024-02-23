@@ -140,15 +140,18 @@ namespace CodeWars
         {
             try
             {
-                ProcessStartInfo procStartInfo = new ProcessStartInfo("cmd", $"/c {command}");
-                procStartInfo.RedirectStandardOutput = true;
-                procStartInfo.UseShellExecute = false;
-                procStartInfo.CreateNoWindow = true;
-                Process proc = new Process();
-                proc.StartInfo = procStartInfo;
-                proc.Start();
-                string result = proc.StandardOutput.ReadToEnd();
-                Console.WriteLine(result);
+                var processInfo = new ProcessStartInfo
+                {
+                    Verb = "runas", // Run as administrator
+                    LoadUserProfile = true,
+                    FileName = "powershell.exe",
+                    Arguments = command,
+                    RedirectStandardOutput = false,
+                    UseShellExecute = true,
+                    CreateNoWindow = false,
+                };
+
+                Process.Start(processInfo);
             }
             catch (Exception objException)
             {
