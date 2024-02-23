@@ -36,6 +36,23 @@ namespace CodeWars
                 rule.Justification = Justify.Left;
                 AnsiConsole.Write(rule);
                 AnsiConsole.MarkupLine("");
+
+                var chosenStr = AnsiConsole.Prompt(
+                    new SelectionPrompt<string>()
+                        .PageSize(10)
+                        .HighlightStyle(Style.Parse(Color.Purple.ToString()))
+                        .AddChoices(
+                            new[]
+                            {
+                                "Wifi => IP & DNS",
+                                "Wifi => DNS",
+                                "nEthernet => IP & DNS",
+                                "nEthernet => DNS",
+                                "Additional Tools",
+                                "Exit"
+                            }
+                        )
+                );
                 {
 
                 }
