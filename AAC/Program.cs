@@ -115,6 +115,14 @@ namespace CodeWars
                                 : wifiDNSPartNumbers[wifiDNSChosenStr];
                         break;
                     case 2:
+                        Dictionary<string, int> ethernetPartNumbers = new Dictionary<string, int>()
+                        {
+                            { "Ethernet [bold blue]IP & DNS[/] goes on [bold green]DHCP[/]", 5 },
+                            {
+                                "Ethernet [bold blue]IP & DNS[/] goes on [bold green]Payaneh network config[/]",
+                                4
+                            },
+                        };
                         break;
                     case 3:
                         break;
