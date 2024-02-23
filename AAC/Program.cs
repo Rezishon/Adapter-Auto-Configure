@@ -95,6 +95,19 @@ namespace CodeWars
                             { "Wifi [bold blue]DNS[/] goes on [bold green]Normal config[/]", 8 },
                         };
 
+                        var wifiDNSChosenStr = AnsiConsole.Prompt(
+                            new SelectionPrompt<string>()
+                                .PageSize(5)
+                                .HighlightStyle(Style.Parse(Color.Purple.ToString()))
+                                .AddChoices(
+                                    new[]
+                                    {
+                                        "Wifi [bold blue]DNS[/] goes on [bold green]Shecan[/]",
+                                        "Wifi [bold blue]DNS[/] goes on [bold green]Normal config[/]",
+                                        "Main menu"
+                                    }
+                                )
+                        );
                         break;
                     case 2:
                         break;
