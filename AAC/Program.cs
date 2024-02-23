@@ -136,7 +136,8 @@ namespace CodeWars
                 Console.Clear();
             }
         }
-        static public void RunCommand(string command)
+
+        public static void RunCommand(string command)
         {
             try
             {
