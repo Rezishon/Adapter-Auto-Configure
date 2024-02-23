@@ -21,7 +21,9 @@ namespace CodeWars
                 { "Additional Tools", 4 },
                 { "Exit", 777 },
             };
+
             while (flag)
+            {
                 AnsiConsole.Write(new FigletText("AAC").Centered().Color(Color.Purple));
                 AnsiConsole.Render(
                     new Text(
