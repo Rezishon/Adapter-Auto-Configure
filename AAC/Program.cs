@@ -88,6 +88,7 @@ namespace CodeWars
                         number =
                             wifiChosenStr == "Main menu" ? 777 : wifiPartNumbers[wifiChosenStr];
                         break;
+
                     case 1:
                         Dictionary<string, int> wifiDNSPartNumbers = new Dictionary<string, int>()
                         {
@@ -114,6 +115,7 @@ namespace CodeWars
                                 ? 777
                                 : wifiDNSPartNumbers[wifiDNSChosenStr];
                         break;
+
                     case 2:
                         Dictionary<string, int> ethernetPartNumbers = new Dictionary<string, int>()
                         {
@@ -143,6 +145,7 @@ namespace CodeWars
                                 ? 777
                                 : ethernetPartNumbers[ethernetChosenStr];
                         break;
+
                     case 3:
                         Dictionary<string, int> ethernetDNSPartNumbers = new Dictionary<
                             string,
@@ -172,6 +175,7 @@ namespace CodeWars
                                 ? 777
                                 : ethernetDNSPartNumbers[ethernetDNSChosenStr];
                         break;
+
                     case 4:
                         Dictionary<string, int> additionalToolsNumbers = new Dictionary<
                             string,
@@ -203,6 +207,7 @@ namespace CodeWars
                                 ? 777
                                 : additionalToolsNumbers[additionalToolsChosenStr];
                         break;
+
                     default:
                         number = 0;
                         break;
