@@ -216,6 +216,7 @@ namespace CodeWars
                 switch (number)
                 {
                     case 0:
+                        flag = false;
                         break;
                     case 1:
                         RunCommand("netsh interface ipv4 set address name=\"Wi-Fi\" source=dhcp");
