@@ -204,6 +204,7 @@ namespace CodeWars
                                 : additionalToolsNumbers[additionalToolsChosenStr];
                         break;
                     default:
+                        number = 0;
                         break;
                 }
 
