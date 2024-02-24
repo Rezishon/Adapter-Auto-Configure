@@ -219,8 +219,9 @@ namespace CodeWars
                         flag = false;
                         break;
                     case 1:
-                        RunCommand("netsh interface ipv4 set address name=\"Wi-Fi\" source=dhcp");
-                        RunCommand("netsh interface ipv4 set dnsservers name=\"Wi-Fi\" source=dhcp");
+                        RunCommand(
+                            "netsh interface ipv4 set address name=\"Wi-Fi\" source=dhcp; netsh interface ipv4 set dnsservers name=\"Wi-Fi\" source=dhcp"
+                        );
                         break;
                     case 2:
                         RunCommand("netsh interface ipv4 set address name=\"Wi-Fi\" static 192.168.1.100 255.255.255.0 192.168.1.1");
