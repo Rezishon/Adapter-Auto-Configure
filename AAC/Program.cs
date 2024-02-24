@@ -173,6 +173,15 @@ namespace CodeWars
                                 : ethernetDNSPartNumbers[ethernetDNSChosenStr];
                         break;
                     case 4:
+                        Dictionary<string, int> additionalToolsNumbers = new Dictionary<
+                            string,
+                            int
+                        >()
+                        {
+                            { "Reset network adapter", 10 },
+                            { "Ping Soft98.ir", 11 },
+                            { "Ping Youtube.com", 12 }
+                        };
                     default:
                         break;
                 }
