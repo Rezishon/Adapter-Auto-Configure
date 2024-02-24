@@ -182,6 +182,21 @@ namespace CodeWars
                             { "Ping Soft98.ir", 11 },
                             { "Ping Youtube.com", 12 }
                         };
+
+                        var additionalToolsChosenStr = AnsiConsole.Prompt(
+                            new SelectionPrompt<string>()
+                                .PageSize(5)
+                                .HighlightStyle(Style.Parse(Color.Purple.ToString()))
+                                .AddChoices(
+                                    new[]
+                                    {
+                                        "Reset network adapter",
+                                        "Ping Soft98.ir",
+                                        "Ping Youtube.com",
+                                        "Main menu"
+                                    }
+                                )
+                        );
                     default:
                         break;
                 }
