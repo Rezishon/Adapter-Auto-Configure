@@ -197,6 +197,12 @@ namespace CodeWars
                                     }
                                 )
                         );
+
+                        number =
+                            additionalToolsChosenStr == "Main menu"
+                                ? 777
+                                : additionalToolsNumbers[additionalToolsChosenStr];
+                        break;
                     default:
                         break;
                 }
